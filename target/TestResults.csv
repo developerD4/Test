@@ -1,0 +1,3 @@
+TCID,TEST RESULT,TIME TAKEN (in secs.),TEST DESCRIPTION,TIME STAMP
+TC001,PASSED,0.04,Verify Page Title contains 'WinVinaya InfoSystems',Mon Sep 08 18:23:53 IST 2025
+TC002,PASSED,0.01,Verify 'Get Started' button is present,Mon Sep 08 18:23:55 IST 2025

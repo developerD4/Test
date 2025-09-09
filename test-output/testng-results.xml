@@ -1,117 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-08T17:16:58 IST" name="Default suite" finished-at="2025-09-08T17:17:30 IST" duration-ms="31813">
+  <suite started-at="2025-09-08T18:23:40 IST" name="Default suite" finished-at="2025-09-08T18:23:56 IST" duration-ms="15919">
     <groups>
     </groups>
-    <test started-at="2025-09-08T17:16:58 IST" name="Default test" finished-at="2025-09-08T17:17:30 IST" duration-ms="31813">
-      <class name="testngExample.Main">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:16:58 IST" name="setupClass" finished-at="2025-09-08T17:17:12 IST" duration-ms="13445" status="PASS">
+    <test started-at="2025-09-08T18:23:40 IST" name="Default test" finished-at="2025-09-08T18:23:56 IST" duration-ms="15919">
+      <class name="testngExample.MainWithCsvReport">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:40 IST" name="setupClass" finished-at="2025-09-08T18:23:50 IST" duration-ms="10302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:12 IST" name="setupTest" finished-at="2025-09-08T17:17:14 IST" duration-ms="2439" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:50 IST" name="setupTest" finished-at="2025-09-08T18:23:53 IST" duration-ms="3186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testBlogsLinkNavigation()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:14 IST" name="testBlogsLinkNavigation" finished-at="2025-09-08T17:17:14 IST" duration-ms="325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBlogsLinkNavigation -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:14 IST" name="tearDownTest" finished-at="2025-09-08T17:17:14 IST" duration-ms="96" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:14 IST" name="setupTest" finished-at="2025-09-08T17:17:16 IST" duration-ms="1977" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testCssSelectorBadge()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:16 IST" name="testCssSelectorBadge" finished-at="2025-09-08T17:17:16 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCssSelectorBadge -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:16 IST" name="tearDownTest" finished-at="2025-09-08T17:17:17 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:17 IST" name="setupTest" finished-at="2025-09-08T17:17:18 IST" duration-ms="1908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testImageAltAttribute()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:18 IST" name="testImageAltAttribute" finished-at="2025-09-08T17:17:18 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testImageAltAttribute -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:18 IST" name="tearDownTest" finished-at="2025-09-08T17:17:19 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:19 IST" name="setupTest" finished-at="2025-09-08T17:17:21 IST" duration-ms="1968" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testPageTitle()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:21 IST" name="testPageTitle" finished-at="2025-09-08T17:17:21 IST" duration-ms="12" status="PASS">
+        <test-method signature="testPageTitle()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:53 IST" name="testPageTitle" finished-at="2025-09-08T18:23:53 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageTitle -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:21 IST" name="tearDownTest" finished-at="2025-09-08T17:17:21 IST" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:53 IST" name="tearDownTest" finished-at="2025-09-08T18:23:53 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:21 IST" name="setupTest" finished-at="2025-09-08T17:17:22 IST" duration-ms="1798" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:53 IST" name="setupTest" finished-at="2025-09-08T18:23:55 IST" duration-ms="1911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testPopupOrSameTabNavigation()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:22 IST" name="testPopupOrSameTabNavigation" finished-at="2025-09-08T17:17:23 IST" duration-ms="887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPopupOrSameTabNavigation -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:23 IST" name="tearDownTest" finished-at="2025-09-08T17:17:23 IST" duration-ms="73" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:23 IST" name="setupTest" finished-at="2025-09-08T17:17:25 IST" duration-ms="1918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testRoleBasedLocator()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:25 IST" name="testRoleBasedLocator" finished-at="2025-09-08T17:17:25 IST" duration-ms="3" status="PASS">
+        <test-method signature="testRoleBasedLocator()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:55 IST" name="testRoleBasedLocator" finished-at="2025-09-08T18:23:55 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoleBasedLocator -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:25 IST" name="tearDownTest" finished-at="2025-09-08T17:17:25 IST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:55 IST" name="tearDownTest" finished-at="2025-09-08T18:23:55 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:25 IST" name="setupTest" finished-at="2025-09-08T17:17:27 IST" duration-ms="1867" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testTextBasedLocator()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:27 IST" name="testTextBasedLocator" finished-at="2025-09-08T17:17:27 IST" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextBasedLocator -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:27 IST" name="tearDownTest" finished-at="2025-09-08T17:17:27 IST" duration-ms="56" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:27 IST" name="setupTest" finished-at="2025-09-08T17:17:29 IST" duration-ms="1891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testXPathLocator()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:29 IST" name="testXPathLocator" finished-at="2025-09-08T17:17:29 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testXPathLocator -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:29 IST" name="tearDownTest" finished-at="2025-09-08T17:17:29 IST" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testngExample.Main@7c7b252e]" started-at="2025-09-08T17:17:29 IST" name="tearDownClass" finished-at="2025-09-08T17:17:30 IST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testngExample.MainWithCsvReport@313ac989]" started-at="2025-09-08T18:23:55 IST" name="tearDownClass" finished-at="2025-09-08T18:23:56 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- testngExample.Main -->
+      </class> <!-- testngExample.MainWithCsvReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

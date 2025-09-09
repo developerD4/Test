@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngExample.Main">
+      <class name="testngExample.MainWithCsvReport">
         <methods>
-          <include name="tearDownTest"/>
-          <include name="testFormPlaceholders"/>
           <include name="tearDownClass"/>
-          <include name="testXPathLocator"/>
-          <include name="testTextBasedLocator"/>
+          <include name="tearDownTest"/>
+          <include name="testRoleBasedLocator"/>
+          <include name="testPageTitle"/>
           <include name="setupTest"/>
           <include name="setupClass"/>
         </methods>
-      </class> <!-- testngExample.Main -->
+      </class> <!-- testngExample.MainWithCsvReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
